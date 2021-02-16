@@ -5,7 +5,8 @@ An image is a matrix in which every element is a pixel of the image. A pixel's v
 
 To take an image apart we'll use the OpenCv library.
 
-We'll import the followinf image:
+We'll import the following image:
+<br/><br/>
 <img src="img/image.jpg" />
 
 The code below will take the image apart and inform us of how many rows, columns and channels it consists.
