@@ -1,7 +1,7 @@
 # Chapter 1: Intro
 
 ## 1.1. Task 1: Image rows, columns and channels
-An image is a matrix in which every element is a pixel of the image. A pixel's value goes from 0 to 255, meaning that we need 1 byte (8 bits) to store it. For b/w images, that value (0-255) represents a shade of grey (the image is viewed as a 2D matrix). But for color images, the matrix is rather more-dimensional so we can represent the intensity of each basic color (Red, Green and Blue) to get the resulting color. So, the 3rd dimension represents the images channels (R, G and B).
+An image is a matrix in which every element is a pixel of the image. A pixel's value goes from 0 to 255, meaning that we need 1 byte (8 bits) to store it. For b/w images, that value (0-255) represents a shade of grey (the image is viewed as a 2D matrix). But for color images, the matrix is rather more-dimensional so we can represent the intensity of each basic color (Red, Green and Blue) to get the resulting color. So, the 3<sup>rd</sup> dimension represents the images channels (R, G and B).
 
 To take an image apart we'll use the OpenCv library.
 
